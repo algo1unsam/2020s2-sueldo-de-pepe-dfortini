@@ -13,7 +13,7 @@ describe "sueldo pepe" {
 	}
 
 	test "sueldo de pepe gerente, resultado porcentaje, presentismo nulo" {
-		pepe.categoria(cadete)
+		pepe.categoria(gerente)
 		pepe.bonoResultado(bonoMontoFijo)
 		pepe.bonoPresentismo(bonoPresentismoNormal)
 		pepe.cantidadDeFaltas(3)
